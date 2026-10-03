@@ -128,6 +128,15 @@
           st.nextStop = e.stopId;
           st.nextStopEta = e.end;
           st.nextStopIn = remaining - e.end;
+          // the stop it heads to after this dwell
+          for (var j = i + 1; j < tl.events.length; j++) {
+            if (tl.events[j].type === 'travel') {
+              st.afterStop = tl.events[j].stopId;
+              st.afterEta = tl.events[j].end;
+              st.afterIn = remaining - tl.events[j].end;
+              break;
+            }
+          }
         }
         st.eventIndex = i;
         break;

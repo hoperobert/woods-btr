@@ -78,12 +78,20 @@
       $('nextmeta').textContent = 'The BTR has left the map on this route.';
     } else {
       placeBtr(st.position, false);
-      $('nextstop').textContent = stopName(st.nextStop);
-      $('nexteta').textContent = B.fmt(st.nextStopEta);
-      if (st.currentStop) {
+      if (st.currentStop && !st.afterStop) {
+        $('nextstop').textContent = 'Route finished';
+        $('nexteta').textContent = '--:--';
+        $('nextmeta').textContent = 'Parked at ' + stopName(st.currentStop) + ', the last stop of this loop.';
+      } else if (st.currentStop && st.afterStop) {
+        $('nextstop').textContent = stopName(st.afterStop);
+        $('nexteta').textContent = B.fmt(st.afterEta);
         $('nextmeta').textContent = 'Parked at ' + stopName(st.currentStop) + ', leaves in ' + B.fmt(st.dwellLeft) +
-          '. Next stop after that is on the route list below.';
+          '. Arrives at ' + stopName(st.afterStop) + ' in ' + B.fmt(st.afterIn) + '.';
       } else {
+        $('nextstop').textContent = stopName(st.nextStop);
+        $('nexteta').textContent = B.fmt(st.nextStopEta);
+      }
+      if (!st.currentStop) {
         $('nextmeta').textContent = 'On the way, ' + Math.round(st.legProgress * 100) + '% of the leg done. Arrives in ' +
           B.fmt(st.nextStopIn) + '.';
       }
@@ -105,7 +113,7 @@
     });
 
     // stop markers
-    var nextId = st.nextStop;
+    var nextId = (st.currentStop && st.afterStop) ? st.afterStop : st.nextStop;
     Object.keys(stopEls).forEach(function (id) {
       var el = stopEls[id];
       var passed = st.stops.some(function (s) { return s.stopId === id && s.arrival > t; });
