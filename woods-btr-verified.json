@@ -1,0 +1,1516 @@
+{
+ "stops": {
+  "checkpoint": {
+   "id": "checkpoint",
+   "name": "Checkpoint",
+   "x": 2422,
+   "y": 1377
+  },
+  "sawmill": {
+   "id": "sawmill",
+   "name": "Sawmill",
+   "x": 3569,
+   "y": 1567
+  },
+  "scavBunker": {
+   "id": "scavBunker",
+   "name": "Scav Bunker",
+   "x": 2696,
+   "y": 3183
+  },
+  "sunkenVillage": {
+   "id": "sunkenVillage",
+   "name": "Sunken Village",
+   "x": 4544,
+   "y": 2999
+  },
+  "oldSawmill": {
+   "id": "oldSawmill",
+   "name": "Old Sawmill",
+   "x": 6125,
+   "y": 1918
+  },
+  "trainDepot": {
+   "id": "trainDepot",
+   "name": "Train Depot",
+   "x": 6972,
+   "y": 855
+  },
+  "junction": {
+   "id": "junction",
+   "name": "Junction",
+   "x": 4053,
+   "y": 2255
+  },
+  "emercomBase": {
+   "id": "emercomBase",
+   "name": "Emercom Base",
+   "x": 4323,
+   "y": 531
+  }
+ },
+ "segments": {
+  "spawnWestern_checkpoint": [
+   {
+    "x": 321,
+    "y": 1479
+   },
+   {
+    "x": 1225,
+    "y": 1336
+   },
+   {
+    "x": 1710,
+    "y": 1298
+   },
+   {
+    "x": 1971,
+    "y": 1303
+   },
+   {
+    "x": 2422,
+    "y": 1377
+   }
+  ],
+  "spawnEastern_oldSawmill": [
+   {
+    "x": 7067,
+    "y": 1370
+   },
+   {
+    "x": 7038,
+    "y": 1504
+   },
+   {
+    "x": 6920,
+    "y": 1673
+   },
+   {
+    "x": 6912,
+    "y": 1793
+   },
+   {
+    "x": 6728,
+    "y": 1955
+   },
+   {
+    "x": 6403,
+    "y": 1994
+   },
+   {
+    "x": 6236,
+    "y": 1947
+   },
+   {
+    "x": 6125,
+    "y": 1918
+   }
+  ],
+  "checkpoint_sawmill": [
+   {
+    "x": 2422,
+    "y": 1377
+   },
+   {
+    "x": 3120,
+    "y": 1443
+   },
+   {
+    "x": 3569,
+    "y": 1567
+   }
+  ],
+  "sawmill_junction": [
+   {
+    "x": 3569,
+    "y": 1567
+   },
+   {
+    "x": 3782,
+    "y": 1655
+   },
+   {
+    "x": 3820,
+    "y": 1702
+   },
+   {
+    "x": 3839,
+    "y": 1781
+   },
+   {
+    "x": 3811,
+    "y": 1947
+   },
+   {
+    "x": 3975,
+    "y": 2195
+   },
+   {
+    "x": 4053,
+    "y": 2255
+   }
+  ],
+  "sawmill_scavBunker": [
+   {
+    "x": 3569,
+    "y": 1567
+   },
+   {
+    "x": 3764,
+    "y": 1642
+   },
+   {
+    "x": 3820,
+    "y": 1697
+   },
+   {
+    "x": 3837,
+    "y": 1798
+   },
+   {
+    "x": 3786,
+    "y": 1985
+   },
+   {
+    "x": 3726,
+    "y": 2088
+   },
+   {
+    "x": 3606,
+    "y": 2177
+   },
+   {
+    "x": 3208,
+    "y": 2273
+   },
+   {
+    "x": 3046,
+    "y": 2355
+   },
+   {
+    "x": 2957,
+    "y": 2431
+   },
+   {
+    "x": 2865,
+    "y": 2658
+   },
+   {
+    "x": 2677,
+    "y": 2742
+   },
+   {
+    "x": 2614,
+    "y": 2811
+   },
+   {
+    "x": 2615,
+    "y": 2892
+   },
+   {
+    "x": 2721,
+    "y": 3067
+   },
+   {
+    "x": 2696,
+    "y": 3183
+   }
+  ],
+  "scavBunker_sunkenVillage": [
+   {
+    "x": 2696,
+    "y": 3183
+   },
+   {
+    "x": 2751,
+    "y": 3300
+   },
+   {
+    "x": 2958,
+    "y": 3412
+   },
+   {
+    "x": 3220,
+    "y": 3304
+   },
+   {
+    "x": 3558,
+    "y": 3228
+   },
+   {
+    "x": 3868,
+    "y": 3099
+   },
+   {
+    "x": 4278,
+    "y": 3019
+   },
+   {
+    "x": 4544,
+    "y": 2999
+   }
+  ],
+  "sunkenVillage_oldSawmill": [
+   {
+    "x": 4544,
+    "y": 2999
+   },
+   {
+    "x": 4721,
+    "y": 2876
+   },
+   {
+    "x": 4761,
+    "y": 2781
+   },
+   {
+    "x": 4927,
+    "y": 2798
+   },
+   {
+    "x": 5015,
+    "y": 2780
+   },
+   {
+    "x": 5406,
+    "y": 2590
+   },
+   {
+    "x": 5664,
+    "y": 2524
+   },
+   {
+    "x": 5804,
+    "y": 2439
+   },
+   {
+    "x": 6042,
+    "y": 2427
+   },
+   {
+    "x": 6099,
+    "y": 2252
+   },
+   {
+    "x": 6081,
+    "y": 2108
+   },
+   {
+    "x": 6125,
+    "y": 1918
+   }
+  ],
+  "junction_oldSawmill": [
+   {
+    "x": 4053,
+    "y": 2255
+   },
+   {
+    "x": 4126,
+    "y": 2293
+   },
+   {
+    "x": 4368,
+    "y": 2364
+   },
+   {
+    "x": 4422,
+    "y": 2494
+   },
+   {
+    "x": 4590,
+    "y": 2601
+   },
+   {
+    "x": 4665,
+    "y": 2744
+   },
+   {
+    "x": 4766,
+    "y": 2782
+   },
+   {
+    "x": 4922,
+    "y": 2800
+   },
+   {
+    "x": 5060,
+    "y": 2763
+   },
+   {
+    "x": 5402,
+    "y": 2593
+   },
+   {
+    "x": 5659,
+    "y": 2528
+   },
+   {
+    "x": 5806,
+    "y": 2438
+   },
+   {
+    "x": 6039,
+    "y": 2427
+   },
+   {
+    "x": 6095,
+    "y": 2274
+   },
+   {
+    "x": 6081,
+    "y": 2112
+   },
+   {
+    "x": 6125,
+    "y": 1918
+   }
+  ],
+  "oldSawmill_trainDepot": [
+   {
+    "x": 6125,
+    "y": 1918
+   },
+   {
+    "x": 6332,
+    "y": 1672
+   },
+   {
+    "x": 6456,
+    "y": 1603
+   },
+   {
+    "x": 6457,
+    "y": 1578
+   },
+   {
+    "x": 6366,
+    "y": 1509
+   },
+   {
+    "x": 6479,
+    "y": 1351
+   },
+   {
+    "x": 6621,
+    "y": 1226
+   },
+   {
+    "x": 6832,
+    "y": 1131
+   },
+   {
+    "x": 6917,
+    "y": 1063
+   },
+   {
+    "x": 6972,
+    "y": 855
+   }
+  ],
+  "trainDepot_emercomBase": [
+   {
+    "x": 6972,
+    "y": 855
+   },
+   {
+    "x": 6991,
+    "y": 788
+   },
+   {
+    "x": 7024,
+    "y": 522
+   },
+   {
+    "x": 4460,
+    "y": 169
+   },
+   {
+    "x": 4323,
+    "y": 531
+   }
+  ],
+  "emercomBase_sawmill": [
+   {
+    "x": 4323,
+    "y": 531
+   },
+   {
+    "x": 4181,
+    "y": 785
+   },
+   {
+    "x": 3976,
+    "y": 924
+   },
+   {
+    "x": 3745,
+    "y": 944
+   },
+   {
+    "x": 3695,
+    "y": 967
+   },
+   {
+    "x": 3676,
+    "y": 1169
+   },
+   {
+    "x": 3621,
+    "y": 1261
+   },
+   {
+    "x": 3519,
+    "y": 1319
+   },
+   {
+    "x": 3523,
+    "y": 1487
+   },
+   {
+    "x": 3493,
+    "y": 1517
+   },
+   {
+    "x": 3569,
+    "y": 1567
+   }
+  ],
+  "trainDepot_sawmill_north": [
+   {
+    "x": 6972,
+    "y": 855
+   },
+   {
+    "x": 6991,
+    "y": 788
+   },
+   {
+    "x": 7024,
+    "y": 522
+   },
+   {
+    "x": 4460,
+    "y": 169
+   },
+   {
+    "x": 4297,
+    "y": 588
+   },
+   {
+    "x": 4181,
+    "y": 785
+   },
+   {
+    "x": 3976,
+    "y": 924
+   },
+   {
+    "x": 3745,
+    "y": 944
+   },
+   {
+    "x": 3695,
+    "y": 967
+   },
+   {
+    "x": 3676,
+    "y": 1169
+   },
+   {
+    "x": 3621,
+    "y": 1261
+   },
+   {
+    "x": 3519,
+    "y": 1319
+   },
+   {
+    "x": 3523,
+    "y": 1487
+   },
+   {
+    "x": 3493,
+    "y": 1517
+   },
+   {
+    "x": 3569,
+    "y": 1567
+   }
+  ],
+  "scavBunker_checkpoint": [
+   {
+    "x": 2696,
+    "y": 3183
+   },
+   {
+    "x": 2719,
+    "y": 3054
+   },
+   {
+    "x": 2604,
+    "y": 2860
+   },
+   {
+    "x": 2659,
+    "y": 2757
+   },
+   {
+    "x": 2825,
+    "y": 2683
+   },
+   {
+    "x": 2890,
+    "y": 2626
+   },
+   {
+    "x": 2959,
+    "y": 2418
+   },
+   {
+    "x": 2938,
+    "y": 2354
+   },
+   {
+    "x": 2822,
+    "y": 2297
+   },
+   {
+    "x": 2436,
+    "y": 2244
+   },
+   {
+    "x": 2260,
+    "y": 2185
+   },
+   {
+    "x": 2052,
+    "y": 2002
+   },
+   {
+    "x": 1674,
+    "y": 1835
+   },
+   {
+    "x": 1508,
+    "y": 1718
+   },
+   {
+    "x": 1286,
+    "y": 1618
+   },
+   {
+    "x": 1178,
+    "y": 1512
+   },
+   {
+    "x": 1136,
+    "y": 1350
+   },
+   {
+    "x": 1689,
+    "y": 1299
+   },
+   {
+    "x": 2038,
+    "y": 1306
+   },
+   {
+    "x": 2422,
+    "y": 1377
+   }
+  ]
+ },
+ "spawnTimes": {
+  "western": 1842,
+  "eastern": 1811
+ },
+ "config": {
+  "raidDuration": 2100,
+  "stopDuration": 120,
+  "spawnChance": 80
+ },
+ "speed": 31.5,
+ "routes": [
+  {
+   "id": "route1",
+   "name": "R1",
+   "spawn": "western",
+   "stops": [
+    "checkpoint",
+    "sawmill",
+    "scavBunker",
+    "sunkenVillage",
+    "oldSawmill",
+    "trainDepot"
+   ],
+   "segments": [
+    {
+     "key": "spawnWestern_checkpoint",
+     "reversed": false
+    },
+    {
+     "key": "checkpoint_sawmill",
+     "reversed": false
+    },
+    {
+     "key": "sawmill_scavBunker",
+     "reversed": false
+    },
+    {
+     "key": "scavBunker_sunkenVillage",
+     "reversed": false
+    },
+    {
+     "key": "sunkenVillage_oldSawmill",
+     "reversed": false
+    },
+    {
+     "key": "oldSawmill_trainDepot",
+     "reversed": false
+    }
+   ],
+   "loopBack": [
+    {
+     "key": "trainDepot_sawmill_north",
+     "reversed": false
+    },
+    {
+     "key": "checkpoint_sawmill",
+     "reversed": true
+    }
+   ],
+   "observedSchedule": [
+    {
+     "stopId": "checkpoint",
+     "arrivalTime": 1794
+    },
+    {
+     "stopId": "sawmill",
+     "arrivalTime": 1636
+    },
+    {
+     "stopId": "scavBunker",
+     "arrivalTime": 1411
+    },
+    {
+     "stopId": "sunkenVillage",
+     "arrivalTime": 1231
+    },
+    {
+     "stopId": "oldSawmill",
+     "arrivalTime": 1047
+    },
+    {
+     "stopId": "trainDepot",
+     "arrivalTime": 878
+    }
+   ]
+  },
+  {
+   "id": "route2",
+   "name": "R2",
+   "spawn": "western",
+   "stops": [
+    "checkpoint",
+    "sawmill",
+    "junction",
+    "oldSawmill",
+    "trainDepot",
+    "emercomBase"
+   ],
+   "segments": [
+    {
+     "key": "spawnWestern_checkpoint",
+     "reversed": false
+    },
+    {
+     "key": "checkpoint_sawmill",
+     "reversed": false
+    },
+    {
+     "key": "sawmill_junction",
+     "reversed": false
+    },
+    {
+     "key": "junction_oldSawmill",
+     "reversed": false
+    },
+    {
+     "key": "oldSawmill_trainDepot",
+     "reversed": false
+    },
+    {
+     "key": "trainDepot_emercomBase",
+     "reversed": false
+    }
+   ],
+   "loopBack": [
+    {
+     "key": "emercomBase_sawmill",
+     "reversed": false
+    },
+    {
+     "key": "checkpoint_sawmill",
+     "reversed": true
+    }
+   ],
+   "observedSchedule": null
+  },
+  {
+   "id": "route3",
+   "name": "R3",
+   "spawn": "eastern",
+   "stops": [
+    "oldSawmill",
+    "trainDepot",
+    "sunkenVillage",
+    "scavBunker",
+    "checkpoint",
+    "sawmill",
+    "junction",
+    "oldSawmill",
+    "trainDepot"
+   ],
+   "segments": [
+    {
+     "key": "spawnEastern_oldSawmill",
+     "reversed": false
+    },
+    {
+     "key": "oldSawmill_trainDepot",
+     "reversed": false
+    },
+    {
+     "key": "oldSawmill_trainDepot",
+     "reversed": true
+    },
+    {
+     "key": "sunkenVillage_oldSawmill",
+     "reversed": true
+    },
+    {
+     "key": "scavBunker_sunkenVillage",
+     "reversed": true
+    },
+    {
+     "key": "scavBunker_checkpoint",
+     "reversed": false
+    },
+    {
+     "key": "checkpoint_sawmill",
+     "reversed": false
+    },
+    {
+     "key": "sawmill_junction",
+     "reversed": false
+    },
+    {
+     "key": "junction_oldSawmill",
+     "reversed": false
+    },
+    {
+     "key": "oldSawmill_trainDepot",
+     "reversed": false
+    }
+   ],
+   "loopBack": [
+    {
+     "key": "oldSawmill_trainDepot",
+     "reversed": true
+    },
+    {
+     "key": "sunkenVillage_oldSawmill",
+     "reversed": true
+    }
+   ],
+   "observedSchedule": [
+    {
+     "stopId": "oldSawmill",
+     "arrivalTime": 1759
+    },
+    {
+     "stopId": "trainDepot",
+     "arrivalTime": 1553
+    },
+    {
+     "stopId": "sunkenVillage",
+     "arrivalTime": 1314
+    },
+    {
+     "stopId": "scavBunker",
+     "arrivalTime": 1126
+    },
+    {
+     "stopId": "checkpoint",
+     "arrivalTime": 861
+    },
+    {
+     "stopId": "sawmill",
+     "arrivalTime": 714
+    },
+    {
+     "stopId": "junction",
+     "arrivalTime": 544
+    },
+    {
+     "stopId": "oldSawmill",
+     "arrivalTime": 313
+    },
+    {
+     "stopId": "trainDepot",
+     "arrivalTime": 123
+    }
+   ]
+  },
+  {
+   "id": "route4",
+   "name": "R4",
+   "spawn": "eastern",
+   "stops": [
+    "oldSawmill",
+    "junction",
+    "sawmill",
+    "emercomBase",
+    "trainDepot"
+   ],
+   "segments": [
+    {
+     "key": "spawnEastern_oldSawmill",
+     "reversed": false
+    },
+    {
+     "key": "junction_oldSawmill",
+     "reversed": true
+    },
+    {
+     "key": "sawmill_junction",
+     "reversed": true
+    },
+    {
+     "key": "emercomBase_sawmill",
+     "reversed": true
+    },
+    {
+     "key": "trainDepot_emercomBase",
+     "reversed": true
+    }
+   ],
+   "loopBack": [
+    {
+     "key": "oldSawmill_trainDepot",
+     "reversed": true
+    }
+   ],
+   "observedSchedule": null
+  },
+  {
+   "id": "route5",
+   "name": "R5",
+   "spawn": "western",
+   "stops": [
+    "checkpoint",
+    "sawmill",
+    "scavBunker",
+    "sunkenVillage",
+    "trainDepot",
+    "oldSawmill",
+    "junction",
+    "emercomBase"
+   ],
+   "segments": [
+    {
+     "key": "spawnWestern_checkpoint",
+     "reversed": false
+    },
+    {
+     "key": "checkpoint_sawmill",
+     "reversed": false
+    },
+    {
+     "key": "sawmill_scavBunker",
+     "reversed": false
+    },
+    {
+     "key": "scavBunker_sunkenVillage",
+     "reversed": false
+    },
+    {
+     "key": "sunkenVillage_oldSawmill",
+     "reversed": false
+    },
+    {
+     "key": "oldSawmill_trainDepot",
+     "reversed": false
+    },
+    {
+     "key": "oldSawmill_trainDepot",
+     "reversed": true
+    },
+    {
+     "key": "junction_oldSawmill",
+     "reversed": true
+    },
+    {
+     "key": "sawmill_junction",
+     "reversed": true
+    },
+    {
+     "key": "emercomBase_sawmill",
+     "reversed": true
+    }
+   ],
+   "observedSchedule": null,
+   "loopBack": [
+    {
+     "key": "emercomBase_sawmill",
+     "reversed": false
+    },
+    {
+     "key": "checkpoint_sawmill",
+     "reversed": true
+    }
+   ],
+   "observedPartial": [
+    {
+     "stopId": "checkpoint",
+     "arrivalTime": 1792
+    },
+    {
+     "stopId": "sawmill",
+     "arrivalTime": 1661
+    },
+    {
+     "stopId": "scavBunker",
+     "arrivalTime": 1455
+    },
+    {
+     "stopId": "sunkenVillage",
+     "arrivalTime": 1279
+    }
+   ],
+   "observedPartialSource": "tarkovbtr bundle fe.observedPartial (site's own arrival list); absent from the extracted dataset"
+  }
+ ],
+ "timeBase": {
+  "clock": "raid-clock countdown",
+  "meaning": "seconds REMAINING in the 2100s (35:00) raid",
+  "elapsedSecondsEq": {
+   "western": 258,
+   "eastern": 289
+  },
+  "elapsedHmsEq": {
+   "western": "4:18",
+   "eastern": "4:49"
+  },
+  "note": "bundle ks={western:30*60+42,eastern:30*60+11} are elapsed marks, i.e. 1842/1811 seconds remaining"
+ },
+ "derivedModel": {
+  "method": "spawn = spawnTimes[side]; each leg -= pathLength/speed; each stop -= stopDuration",
+  "note": "arrival numbers reproduce the tracker's own ETA formula (pathLength/31.5 subtracted from spawn time) observedMinusModel pairs each observed entry to the next visit in the model walk with the same stopId (needed because R3's declared stops omit an intermediate visit).",
+  "routes": {
+   "route1": [
+    {
+     "stopId": "checkpoint",
+     "modelArrivalRemainingS": 1775,
+     "modelArrivalElapsedS": 325
+    },
+    {
+     "stopId": "sawmill",
+     "modelArrivalRemainingS": 1618,
+     "modelArrivalElapsedS": 482
+    },
+    {
+     "stopId": "scavBunker",
+     "modelArrivalRemainingS": 1418,
+     "modelArrivalElapsedS": 682
+    },
+    {
+     "stopId": "sunkenVillage",
+     "modelArrivalRemainingS": 1234,
+     "modelArrivalElapsedS": 866
+    },
+    {
+     "stopId": "oldSawmill",
+     "modelArrivalRemainingS": 1044,
+     "modelArrivalElapsedS": 1056
+    },
+    {
+     "stopId": "trainDepot",
+     "modelArrivalRemainingS": 875,
+     "modelArrivalElapsedS": 1225
+    }
+   ],
+   "route2": [
+    {
+     "stopId": "checkpoint",
+     "modelArrivalRemainingS": 1775,
+     "modelArrivalElapsedS": 325
+    },
+    {
+     "stopId": "sawmill",
+     "modelArrivalRemainingS": 1618,
+     "modelArrivalElapsedS": 482
+    },
+    {
+     "stopId": "junction",
+     "modelArrivalRemainingS": 1468,
+     "modelArrivalElapsedS": 632
+    },
+    {
+     "stopId": "oldSawmill",
+     "modelArrivalRemainingS": 1258,
+     "modelArrivalElapsedS": 842
+    },
+    {
+     "stopId": "trainDepot",
+     "modelArrivalRemainingS": 1089,
+     "modelArrivalElapsedS": 1011
+    },
+    {
+     "stopId": "emercomBase",
+     "modelArrivalRemainingS": 864,
+     "modelArrivalElapsedS": 1236
+    }
+   ],
+   "route3": [
+    {
+     "stopId": "oldSawmill",
+     "modelArrivalRemainingS": 1769,
+     "modelArrivalElapsedS": 331
+    },
+    {
+     "stopId": "trainDepot",
+     "modelArrivalRemainingS": 1600,
+     "modelArrivalElapsedS": 500
+    },
+    {
+     "stopId": "oldSawmill",
+     "modelArrivalRemainingS": 1431,
+     "modelArrivalElapsedS": 669
+    },
+    {
+     "stopId": "sunkenVillage",
+     "modelArrivalRemainingS": 1241,
+     "modelArrivalElapsedS": 859
+    },
+    {
+     "stopId": "scavBunker",
+     "modelArrivalRemainingS": 1057,
+     "modelArrivalElapsedS": 1043
+    },
+    {
+     "stopId": "checkpoint",
+     "modelArrivalRemainingS": 795,
+     "modelArrivalElapsedS": 1305
+    },
+    {
+     "stopId": "sawmill",
+     "modelArrivalRemainingS": 638,
+     "modelArrivalElapsedS": 1462
+    },
+    {
+     "stopId": "junction",
+     "modelArrivalRemainingS": 488,
+     "modelArrivalElapsedS": 1612
+    },
+    {
+     "stopId": "oldSawmill",
+     "modelArrivalRemainingS": 279,
+     "modelArrivalElapsedS": 1821
+    },
+    {
+     "stopId": "trainDepot",
+     "modelArrivalRemainingS": 110,
+     "modelArrivalElapsedS": 1990
+    }
+   ],
+   "route4": [
+    {
+     "stopId": "oldSawmill",
+     "modelArrivalRemainingS": 1769,
+     "modelArrivalElapsedS": 331
+    },
+    {
+     "stopId": "junction",
+     "modelArrivalRemainingS": 1559,
+     "modelArrivalElapsedS": 541
+    },
+    {
+     "stopId": "sawmill",
+     "modelArrivalRemainingS": 1410,
+     "modelArrivalElapsedS": 690
+    },
+    {
+     "stopId": "emercomBase",
+     "modelArrivalRemainingS": 1240,
+     "modelArrivalElapsedS": 860
+    },
+    {
+     "stopId": "trainDepot",
+     "modelArrivalRemainingS": 1015,
+     "modelArrivalElapsedS": 1085
+    }
+   ],
+   "route5": [
+    {
+     "stopId": "checkpoint",
+     "modelArrivalRemainingS": 1775,
+     "modelArrivalElapsedS": 325
+    },
+    {
+     "stopId": "sawmill",
+     "modelArrivalRemainingS": 1618,
+     "modelArrivalElapsedS": 482
+    },
+    {
+     "stopId": "scavBunker",
+     "modelArrivalRemainingS": 1418,
+     "modelArrivalElapsedS": 682
+    },
+    {
+     "stopId": "sunkenVillage",
+     "modelArrivalRemainingS": 1234,
+     "modelArrivalElapsedS": 866
+    },
+    {
+     "stopId": "oldSawmill",
+     "modelArrivalRemainingS": 1044,
+     "modelArrivalElapsedS": 1056
+    },
+    {
+     "stopId": "trainDepot",
+     "modelArrivalRemainingS": 875,
+     "modelArrivalElapsedS": 1225
+    },
+    {
+     "stopId": "oldSawmill",
+     "modelArrivalRemainingS": 706,
+     "modelArrivalElapsedS": 1394
+    },
+    {
+     "stopId": "junction",
+     "modelArrivalRemainingS": 497,
+     "modelArrivalElapsedS": 1603
+    },
+    {
+     "stopId": "sawmill",
+     "modelArrivalRemainingS": 347,
+     "modelArrivalElapsedS": 1753
+    },
+    {
+     "stopId": "emercomBase",
+     "modelArrivalRemainingS": 178,
+     "modelArrivalElapsedS": 1922
+    }
+   ]
+  },
+  "observedMinusModel": {
+   "route1": [
+    {
+     "stopId": "checkpoint",
+     "observedRemainingS": 1794,
+     "modelArrivalRemainingS": 1775,
+     "observedMinusModelS": 19,
+     "matchedModelVisit": 0
+    },
+    {
+     "stopId": "sawmill",
+     "observedRemainingS": 1636,
+     "modelArrivalRemainingS": 1618,
+     "observedMinusModelS": 18,
+     "matchedModelVisit": 1
+    },
+    {
+     "stopId": "scavBunker",
+     "observedRemainingS": 1411,
+     "modelArrivalRemainingS": 1418,
+     "observedMinusModelS": -7,
+     "matchedModelVisit": 2
+    },
+    {
+     "stopId": "sunkenVillage",
+     "observedRemainingS": 1231,
+     "modelArrivalRemainingS": 1234,
+     "observedMinusModelS": -3,
+     "matchedModelVisit": 3
+    },
+    {
+     "stopId": "oldSawmill",
+     "observedRemainingS": 1047,
+     "modelArrivalRemainingS": 1044,
+     "observedMinusModelS": 3,
+     "matchedModelVisit": 4
+    },
+    {
+     "stopId": "trainDepot",
+     "observedRemainingS": 878,
+     "modelArrivalRemainingS": 875,
+     "observedMinusModelS": 3,
+     "matchedModelVisit": 5
+    }
+   ],
+   "route3": [
+    {
+     "stopId": "oldSawmill",
+     "observedRemainingS": 1759,
+     "modelArrivalRemainingS": 1769,
+     "observedMinusModelS": -10,
+     "matchedModelVisit": 0
+    },
+    {
+     "stopId": "trainDepot",
+     "observedRemainingS": 1553,
+     "modelArrivalRemainingS": 1600,
+     "observedMinusModelS": -47,
+     "matchedModelVisit": 1
+    },
+    {
+     "stopId": "sunkenVillage",
+     "observedRemainingS": 1314,
+     "modelArrivalRemainingS": 1241,
+     "observedMinusModelS": 73,
+     "matchedModelVisit": 3
+    },
+    {
+     "stopId": "scavBunker",
+     "observedRemainingS": 1126,
+     "modelArrivalRemainingS": 1057,
+     "observedMinusModelS": 69,
+     "matchedModelVisit": 4
+    },
+    {
+     "stopId": "checkpoint",
+     "observedRemainingS": 861,
+     "modelArrivalRemainingS": 795,
+     "observedMinusModelS": 66,
+     "matchedModelVisit": 5
+    },
+    {
+     "stopId": "sawmill",
+     "observedRemainingS": 714,
+     "modelArrivalRemainingS": 638,
+     "observedMinusModelS": 76,
+     "matchedModelVisit": 6
+    },
+    {
+     "stopId": "junction",
+     "observedRemainingS": 544,
+     "modelArrivalRemainingS": 488,
+     "observedMinusModelS": 56,
+     "matchedModelVisit": 7
+    },
+    {
+     "stopId": "oldSawmill",
+     "observedRemainingS": 313,
+     "modelArrivalRemainingS": 279,
+     "observedMinusModelS": 34,
+     "matchedModelVisit": 8
+    },
+    {
+     "stopId": "trainDepot",
+     "observedRemainingS": 123,
+     "modelArrivalRemainingS": 110,
+     "observedMinusModelS": 13,
+     "matchedModelVisit": 9
+    }
+   ],
+   "route5": [
+    {
+     "stopId": "checkpoint",
+     "observedRemainingS": 1792,
+     "modelArrivalRemainingS": 1775,
+     "observedMinusModelS": 17,
+     "matchedModelVisit": 0
+    },
+    {
+     "stopId": "sawmill",
+     "observedRemainingS": 1661,
+     "modelArrivalRemainingS": 1618,
+     "observedMinusModelS": 43,
+     "matchedModelVisit": 1
+    },
+    {
+     "stopId": "scavBunker",
+     "observedRemainingS": 1455,
+     "modelArrivalRemainingS": 1418,
+     "observedMinusModelS": 37,
+     "matchedModelVisit": 2
+    },
+    {
+     "stopId": "sunkenVillage",
+     "observedRemainingS": 1279,
+     "modelArrivalRemainingS": 1234,
+     "observedMinusModelS": 45,
+     "matchedModelVisit": 3
+    }
+   ]
+  },
+  "observedMinusModelSpreadS": {
+   "route1": [
+    -7,
+    19
+   ],
+   "route3": [
+    -47,
+    76
+   ],
+   "route5": [
+    17,
+    45
+   ]
+  }
+ },
+ "confidence": {
+  "config.raidDuration": "high",
+  "config.stopDuration": "high",
+  "config.spawnChance": "high",
+  "speed": "medium",
+  "spawnTimes.western": "high",
+  "spawnTimes.eastern": "high",
+  "timeBase": "high",
+  "stops.count_and_names": "high",
+  "stops.coordinates": "low",
+  "segments.paths": "medium",
+  "segments.count": "high",
+  "routes.count": "high",
+  "routes.route1.spawnSide": "medium",
+  "routes.route2.spawnSide": "medium",
+  "routes.route5.spawnSide": "medium",
+  "routes.route3.spawnSide": "medium",
+  "routes.route4.spawnSide": "medium",
+  "routes.route1.stopOrder": "high",
+  "routes.route2.stopOrder": "medium",
+  "routes.route3.stopOrder": "medium",
+  "routes.route4.stopOrder": "medium",
+  "routes.route5.stopOrder": "medium",
+  "routes.route5.segments": "low",
+  "routes.route1.observedArrivals": "medium",
+  "routes.route3.observedArrivals": "medium",
+  "routes.route5.observedArrivals": "medium",
+  "routes.route2.observedArrivals": "low",
+  "routes.route4.observedArrivals": "low",
+  "variance.claim_1_to_2_minutes": "medium",
+  "routes.route3.stops_vs_walk_convention": "medium"
+ },
+ "confidenceBasis": {
+  "config.raidDuration": "35:00 stated by tarkovbtr.com/woods-btr and tarkovhead.com; bundle V.raidDuration=35*60",
+  "config.stopDuration": "bundle V.stopDuration=120; tarkovhead 'remains stationary for around 2 minutes'; tarkovbox '约 2 分钟'",
+  "config.spawnChance": "bundle V.spawnChance=80; tarkovhead 'approximately an 80% chance on Woods'",
+  "speed": "bundle only (le=31.5, used as pathLength/31.5 for ETAs); no public source states a speed. Plausible: reproduces the site's own R1/R5 arrival gaps to <=26 s",
+  "spawnTimes.western": "bundle ks.western=30*60+42 verbatim; within tarkovhead's '30 minute mark +/- 2 minutes' (1800s +/- 120s = 1680-1920s elapsed)",
+  "spawnTimes.eastern": "bundle ks.eastern=30*60+11 verbatim; same cross-check as western",
+  "timeBase": "spawn constants are elapsed marks (30:42 / 30:11 of a 35:00 raid) = 1842 / 1811 seconds REMAINING. Reading them as elapsed-from-start breaks every observed arrival time by ~25 minutes",
+  "stops.count_and_names": "8 stops in bundle We; all 8 named by tarkovbox (Checkpoint, Sawmill, Scav Bunker, Sunken Village, Old Sawmill, Train Depot, Junction, Emercom Base)",
+  "stops.coordinates": "tracker map coordinates only; no public coordinate list found to check them against",
+  "segments.paths": "bundle only; each path's end nodes land on the named stop within 0.4 units, so the topology is self-consistent, but the point lists are unverified externally",
+  "segments.count": "13 keys in both the bundle and the dataset",
+  "routes.count": "bundle R1-R5; tarkovbox 'Review 5 BTR routes'",
+  "routes.route1.spawnSide": "tarkovbtr.com/btr-info: yellow = western (R1, R2, R5), green = eastern (R3, R4); bundle spawn fields agree",
+  "routes.route2.spawnSide": "same tarkovbtr.com/btr-info grouping + bundle spawn field",
+  "routes.route3.spawnSide": "same tarkovbtr.com/btr-info grouping + bundle spawn field",
+  "routes.route4.spawnSide": "same tarkovbtr.com/btr-info grouping + bundle spawn field",
+  "routes.route5.spawnSide": "same tarkovbtr.com/btr-info grouping + bundle spawn field",
+  "routes.route1.stopOrder": "bundle Ss.stops and tarkovbox's R1 stop list agree exactly (Checkpoint, Sawmill, Scav Bunker, Sunken Village, Old Sawmill, Train Depot)",
+  "routes.route2.stopOrder": "bundle only, plus tarkovbox's 6-stop western count matching",
+  "routes.route3.stopOrder": "bundle only; tarkovbox gives 7 stops for R3 where the bundle walks 9 visits (it revisits Old Sawmill and Train Depot), a counting convention difference not a data conflict",
+  "routes.route4.stopOrder": "bundle only; tarkovbox's 5 eastern stops matches the count",
+  "routes.route5.stopOrder": "bundle only; tarkovbox's 8 western stops matches the count",
+  "routes.route5.segments": "dataset was truncated (6 legs for an 8-stop route); restored to the bundle's 10 legs, still single-sourced",
+  "routes.route1.observedArrivals": "bundle observedSchedule; matches the deterministic model to -7/-3/+3/+18/+19 s, but the site calls them 'approximations based on observed data that is being improved upon'",
+  "routes.route3.observedArrivals": "bundle observedSchedule; all 9 entries align in order with R3's declared 9 stops and land +13 to +76 s of the deterministic model (a consistent small bias, not random scatter)",
+  "routes.route5.observedArrivals": "bundle observedPartial (4 stops), absent from the dataset; gaps 131/206/176 s against travel+dwell 157/200/184 s",
+  "routes.route2.observedArrivals": "observedSchedule is null in the bundle: no observed data exists",
+  "routes.route4.observedArrivals": "observedSchedule is null in the bundle: no observed data exists",
+  "variance.claim_1_to_2_minutes": "stated by tarkovbtr.com/woods-btr and tarkovbox. Observed-vs-model spread is 26 s on R1, 28 s on R5 and 123 s on R3 (consistent +56 to +76 s bias rather than noise), so '1-2 minutes' is the right order of magnitude for a worst case but is not independently measured; tarkovhead.com quotes +/- 2 minutes on spawn timing, which bounds spawn variance instead",
+  "routes.route3.stops_vs_walk_convention": "R3 declares 9 stops but its segment walk makes 10 stop visits (an extra return to Old Sawmill after Train Depot); tarkovbox's '7 stops' for R3 matches the 7 distinct names. Convention difference, not a conflict"
+ },
+ "notes": [
+  {
+   "id": "N1",
+   "severity": "info",
+   "field": "spawnTimes / observedSchedule / arrivalTime",
+   "finding": "Every time in this dataset is the raid-clock COUNTDOWN (seconds remaining of the 2100 s raid), not elapsed time. western 1842 = 30:42 elapsed (4:18 left), eastern 1811 = 30:11 elapsed (4:49 left).",
+   "evidence": "Nimbus's brief reads them as ~30:42 / ~30:11 'on the 35:00 raid clock'; the bundle's ETA code subtracts travel time from the spawn value and counts down.",
+   "recommendation": "Keep reading them as 30:42/30:11 elapsed. See timeBase in this file for the elapsed equivalents. Reading them as elapsed-from-start offsets every arrival by ~25 min."
+  },
+  {
+   "id": "N2",
+   "severity": "correction",
+   "field": "routes.route5.segments",
+   "finding": "The extracted dataset truncated R5: 6 legs for a route whose own stops array lists 8 stops (it walks only to Old Sawmill@875 and never reaches Train Depot, Junction or Emercom Base).",
+   "evidence": "Bundle fe has 10 legs and assigns fe.segments after defining fe; the dataset kept only the first 6 (the ones before the two pairs of opposing legs).",
+   "recommendation": "Restored the 4 missing legs (oldSawmill_trainDepot reversed:false and reversed:true, junction_oldSawmill reversed:true, sawmill_junction reversed:true, emercomBase_sawmill reversed:true) in this file, from the bundle. Still single-sourced, so confidence low."
+  },
+  {
+   "id": "N3",
+   "severity": "info",
+   "field": "routes.route3.observedSchedule alignment",
+   "finding": "R3's observed array is NOT contradictory: all 9 entries align in order with R3's declared 9 stops and sit +13 to +76 s off the model. What differs is convention: R3's declared stops and the observed array both omit the walk's intermediate return visit to Old Sawmill after Train Depot, so the walk has 10 stop visits and the declared list 9 (7 distinct names, matching tarkovbox's '7 stops').",
+   "evidence": "derivedModel.observedMinusModel.route3 run to run: 1759/1769, 1553/1600, 1314/1241, 1126/1057, 861/795, 714/638, 544/488, 313/279, 123/110.",
+   "recommendation": "Use the observed array as-is; when quoting counts say '9 stops on R3' (bundle convention) or '7 distinct stops' (tarkovbox convention)."
+  },
+  {
+   "id": "N4",
+   "severity": "info",
+   "field": "routes.route1.observedSchedule, routes.route5.observedPartial",
+   "finding": "R1's 6 arrival times and R5's 4 partial arrivals are the only observed data points anywhere in the dataset, and they corroborate the model: R1 within -7 to +19 s, R5's 4 arrivals +17 to +45 s, with R5's inter-stop gaps within 26 s of travel+120 s dwell.",
+   "evidence": "derivedModel.observedMinusModel.",
+   "recommendation": "Treat R1/R5 arrivals as medium confidence (the site itself labels them approximations)."
+  },
+  {
+   "id": "N5",
+   "severity": "info",
+   "field": "routes.route2, routes.route4",
+   "finding": "R2 and R4 have no observed arrival times at all (observedSchedule is null in the bundle).",
+   "evidence": "Bundle zs (R2) and Es (R4) both carry observedSchedule:null; the dataset faithfully has null.",
+   "recommendation": "R2/R4 schedules are model-only, unvalidated. Do not present them as observed."
+  },
+  {
+   "id": "N6",
+   "severity": "info",
+   "field": "variance claim (1-2 min)",
+   "finding": "The '1-2 minute' ETA variance appears in tarkovbtr.com/woods-btr ('ETA range varies 1-2 minutes due to spawn variance') and tarkovbox, so it is sourced, but it is not independently measured here. Observed-minus-model spread is 26 s (R1), 123 s (R3, mostly a consistent +56 to +76 s late bias on the last 7 stops) and 28 s (R5).",
+   "evidence": "site text + derivedModel.observedMinusModelSpreadS",
+   "recommendation": "Medium confidence. tarkovhead.com quotes a wider 'spawn at the 30 minute mark +/- 2 minutes', which bounds spawn variance rather than ETA variance."
+  },
+  {
+   "id": "N7",
+   "severity": "info",
+   "field": "stops.coordinates, segments point lists",
+   "finding": "Stop coordinates and segment paths are internal to the tracker; I found no public coordinate list (wiki, tarkovbox, tarkovhead) to check them against.",
+   "evidence": "Endpoints of all 13 paths land on their named stop within 0.4 units, so the topology is internally sound (~8186 x 3720 coordinate space), but that is a self-consistency check, not an external one.",
+   "recommendation": "Rate coordinates low confidence: usable for this tracker's own model, not evidence of the in-game positions."
+  },
+  {
+   "id": "N8",
+   "severity": "info",
+   "field": "escapefromtarkov.fandom.com/wiki/BTR_Driver",
+   "finding": "The official-ish wiki page was not readable for this check: HTTP 403 behind a Cloudflare 'Just a moment...' challenge. I did not attempt to pass it.",
+   "evidence": "http_fetch returned 403.",
+   "recommendation": "No wiki figure is used anywhere in this verification; nothing here depends on it."
+  },
+  {
+   "id": "N9",
+   "severity": "info",
+   "field": "config.spawnChance",
+   "finding": "spawnChance 80 is part of the dataset but was not in the brief. It is corroborated externally ('approximately an 80% chance on Woods'), so it stands at high confidence.",
+   "evidence": "tarkovhead.com BTR guide; bundle V.spawnChance=80.",
+   "recommendation": "None."
+  }
+ ],
+ "verificationMeta": {
+  "dataset": "woods-btr-dataset.json (extracted from tarkovbtr.com JS bundle)",
+  "numbersChanged": 0,
+  "correctionsMadeInThisFile": "route5 legs restored (N2) and route5 observedPartial added; all other numbers left exactly as extracted",
+  "sources": [
+   "tarkovbtr.com/woods-btr",
+   "tarkovbtr.com/btr-info (route colour grouping, via search snippet)",
+   "tarkovbox.com/en/gametools/btr/woods/routes",
+   "tarkovhead.com/en/news/btr-routes-on-the-map-and-guide-10",
+   "dashboard bundle of tarkovbtr.com (V, le, ks, Ss/zs/Rs/Es/fe, Bs, ETA code)",
+   "escapefromtarkov.fandom.com BTR_Driver: unavailable (403)"
+  ],
+  "confidenceScale": "high = stated by the bundle and at least one independent public source, or arithmetic that reproduces observed data; medium = single source or validated only against the site's own approximations; low = single source with an internal problem or no external check"
+ }
+}
