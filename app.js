@@ -80,9 +80,13 @@
       placeBtr(st.position, false);
       $('nextstop').textContent = stopName(st.nextStop);
       $('nexteta').textContent = B.fmt(st.nextStopEta);
-      var where = st.currentStop ? ('Parked at ' + stopName(st.currentStop) + ', leaves in ' + B.fmt(st.dwellLeft) + '.')
-        : ('On the way, ' + Math.round(st.legProgress * 100) + '% of the leg done.');
-      $('nextmeta').textContent = where + ' Arrives in ' + B.fmt(st.nextStopIn) + '.';
+      if (st.currentStop) {
+        $('nextmeta').textContent = 'Parked at ' + stopName(st.currentStop) + ', leaves in ' + B.fmt(st.dwellLeft) +
+          '. Next stop after that is on the route list below.';
+      } else {
+        $('nextmeta').textContent = 'On the way, ' + Math.round(st.legProgress * 100) + '% of the leg done. Arrives in ' +
+          B.fmt(st.nextStopIn) + '.';
+      }
     }
 
     // route card
